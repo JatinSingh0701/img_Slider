@@ -18,7 +18,7 @@ function prevSlide() {
   if (currentSlide < 0) {
     currentSlide = sliderImages.length - 1;
   }
-  // showSlide(); // if you want to show the slide after clicking the button
+  showSlide(); // if you want to show the slide after clicking the button
 }
 
 function nextSlide() {
@@ -26,7 +26,7 @@ function nextSlide() {
   if (currentSlide >= sliderImages.length) {
     currentSlide = 0;
   }
-  // showSlide(); // if you want to show the slide after clicking the button
+  showSlide(); // if you want to show the slide after clicking the button
 }
 
 // showSlide(); // if you want to show the slide after clicking the button
